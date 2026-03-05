@@ -1,0 +1,30 @@
+﻿{
+  "transcript": [
+    {
+      "role": "assistant",
+      "text": "I can help you find and mock-book flights. Is this a one-way or round-trip flight?",
+      "timestamp": "2026-03-03T20:00:00Z"
+    },
+    {
+      "role": "user",
+      "text": "Round trip from Boston to Seattle. Leaving 2026-04-10 and returning 2026-04-15 for 2 adults.",
+      "timestamp": "2026-03-03T20:00:08Z"
+    }
+  ],
+  "final_trip_request": {
+    "trip_type": "round_trip",
+    "origin": "Boston",
+    "destination": "Seattle",
+    "depart_date": "2026-04-10",
+    "return_date": "2026-04-15",
+    "passengers": 2,
+    "cabin": "economy",
+    "nonstop_preference": null,
+    "max_stops": null,
+    "budget_usd": null,
+    "time_window": null
+  },
+  "offers_shown": [],
+  "selected_offer": null,
+  "booking_result": null
+}
